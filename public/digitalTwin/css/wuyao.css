@@ -1,0 +1,355 @@
+@font-face {
+    font-family: "PingFang";
+    src: url("../../../src/assets/fonts/PingFang/PingFang Medium_downcc.otf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+.lable {
+    position: absolute;
+    height: auto;
+    color: #fff;
+    background: #353736;
+    padding: 5px 20px 5px 20px;
+    font-size: 10px;
+    border-radius: 30px;
+    pointer-events: none;
+    text-align: center;
+    cursor: none;
+    top: -45px;
+    font-family: "PingFang";
+}
+
+.lable span {
+    cursor: none;
+}
+
+.imgDiv {
+    position: relative;
+}
+
+.codeSpan {
+    text-align: center;
+    font-size: 9px;
+    color: #fff;
+    position: absolute;
+    top: 20px;
+    left: 0px;
+    width: 36px;
+}
+
+.personalSpan {
+    text-align: center;
+    font-size: 11px;
+    color: #fff;
+    position: absolute;
+    top: 5px;
+    left: -4px;
+    width: 140px;
+}
+
+.imgContainerDiv,
+.personalDiv,
+.carImgDiv {
+    cursor: pointer;
+    z-index: 0 !important;
+    position: fixed !important;
+    pointer-events: all !important;
+}
+
+.carImgDiv .codeSpan {
+    top: 22px !important;
+    left: 5px !important;
+}
+
+.carImgDiv img {
+    width: 45px;
+    height: 55px;
+}
+
+.imgDiv_jump {
+    animation: jump 0.8s infinite;
+}
+
+.codeSpanShan {
+    left: 2px !important;
+}
+
+.deductInfoDiv {
+    position: absolute;
+    bottom: 90px;
+    background: #2F3030;
+    color: #fff;
+    padding: 7px;
+    font-size: 12px;
+    border-radius: 10px;
+    border: 1px solid red;
+}
+
+.deductInfoSimpleDiv {
+    position: absolute;
+    bottom: 90px;
+    background: #F24806;
+    color: #fff;
+    font-size: 12px;
+    font-weight: bold;
+    transform: skew(-20deg);
+    text-align: center;
+}
+
+.deductInfoSimpleDiv div {
+    transform: skew(20deg);
+    padding: 5px;
+}
+
+.deductInfoDiv span:nth-child(2) {
+    font-weight: bold;
+    color: #EDF200;
+}
+
+.deductInfoDiv span:nth-child(3) {
+    float: right;
+    right: 0px;
+    position: absolute;
+    font-size: 18px;
+    top: 1px;
+    width: 30px;
+    opacity: .7;
+    text-align: center;
+}
+
+.deductInfoDiv span:nth-child(4) {
+    display: block;
+    padding: 1px 0px;
+}
+
+
+
+@keyframes jump {
+    0% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-20px);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+
+.lineNameSpan {
+    pointer-events: all !important;
+    font-weight: bold;
+    color: #fff;
+    padding: 7px;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+.lableWarnImg {
+    margin-top: -2em;
+    user-select: none;
+    transform: translate(-50%, -50%) translate(1104.13px, 364.431px);
+    cursor: pointer;
+    z-index: 2;
+    position: fixed !important;
+    pointer-events: all !important;
+    width: 40px;
+    height: 40px;
+    align-items: center;
+    /* 垂直居中 */
+    justify-content: center;
+    /* 水平居中，如果需要的话 */
+}
+
+.lableWarnImg img {
+    width: 30px;
+    height: 45px;
+}
+
+/** 预警 */
+.yjxxClass {
+    width: 200px;
+    color: #fff;
+    border: 1px solid #ed0510d4;
+    box-shadow: 1px -1px 10px 1px rgb(235 0 11 / 50%);
+    padding: 4px;
+    font-size: 10px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    margin-left: 38px;
+    margin-top: -54px;
+    word-break: break-all;
+    /* 允许在单词内换行 */
+    overflow-wrap: break-word;
+    /* 在长单词或连字符处允许换行 */
+}
+
+.yjsjClass {
+    text-align: right;
+    line-height: 10px;
+    font-size: 10px;
+}
+
+.warnImg_jump {
+    animation: jump 0.8s infinite;
+}
+
+.inButtonSpan {
+    font-size: 16px;
+    letter-spacing: 2px;
+    position: absolute;
+    color: #fff;
+    line-height: 49px;
+    left: 45px;
+    top: -6px;
+}
+
+.buttonDiv {
+    position: relative;
+    left: 208px;
+    top: -138px;
+    pointer-events: all !important;
+    z-index: 2;
+    cursor: pointer;
+}
+
+.buttonDiv_hks {
+    position: relative;
+    left: 244px;
+    top: -178px;
+    pointer-events: all !important;
+    z-index: 2;
+    cursor: pointer;
+}
+
+.middleLine_index_jkzx {
+    transform: scaleX(-1);
+}
+
+.buttonDiv_jkzx {
+    position: relative;
+    left: -198px;
+    top: -138px;
+    pointer-events: all !important;
+    z-index: 2;
+    cursor: pointer;
+}
+
+.inButtonSpan_jkzx {
+    font-size: 16px;
+    letter-spacing: 2px;
+    position: absolute;
+    color: #fff;
+    line-height: 49px;
+    left: 66px;
+    top: -6px;
+}
+
+
+.shortLine_index_c5 {
+    transform: scaleX(-1);
+}
+
+.buttonDiv_c5 {
+    position: relative;
+    left: -199px;
+    top: -98px;
+    pointer-events: all !important;
+    z-index: 2;
+    cursor: pointer;
+}
+
+.inButtonSpan_c5 {
+    font-size: 16px;
+    letter-spacing: 2px;
+    position: absolute;
+    color: #fff;
+    line-height: 49px;
+    left: 66px;
+    top: -6px;
+}
+
+
+.buttonDiv_llhks {
+    position: relative;
+    left: 244px;
+    top: -178px;
+    pointer-events: all !important;
+    z-index: 2;
+    cursor: pointer;
+}
+
+.inButtonSpan_llhks {
+    font-size: 16px;
+    letter-spacing: 2px;
+    position: absolute;
+    color: #fff;
+    line-height: 49px;
+    left: 50px;
+    top: -6px;
+}
+
+
+.buttonDiv_llzzksq {
+    position: relative;
+    left: 163px;
+    top: -98px;
+    pointer-events: all !important;
+    z-index: 2;
+    cursor: pointer;
+}
+
+.inButtonSpan_llzzksq {
+    font-size: 16px;
+    letter-spacing: 2px;
+    position: absolute;
+    color: #fff;
+    line-height: 49px;
+    left: 42px;
+    top: -6px;
+}
+
+.longLine_index_ll2 {
+    transform: scaleX(-1);
+}
+
+.buttonDiv_ll2 {
+    position: relative;
+    left: -103px;
+    top: -202px;
+    pointer-events: all !important;
+    z-index: 2;
+    cursor: pointer;
+}
+
+.inButtonSpan_ll2 {
+    font-size: 16px;
+    letter-spacing: 2px;
+    position: absolute;
+    color: #fff;
+    line-height: 49px;
+    left: 30px;
+    top: -6px;
+}
+
+.buttonDiv_ll3 {
+    position: relative;
+    left: 244px;
+    top: -178px;
+    pointer-events: all !important;
+    z-index: 2;
+    cursor: pointer;
+}
+
+.inButtonSpan_ll3 {
+    font-size: 16px;
+    letter-spacing: 2px;
+    position: absolute;
+    color: #fff;
+    line-height: 49px;
+    left: 30px;
+    top: -6px;
+}

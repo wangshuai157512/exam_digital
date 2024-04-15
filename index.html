@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <!-- <link rel="icon" type="image/svg+xml" href="/vite.svg" /> -->
+    <meta name="referrer" content="no-referrer" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>驾驶人考试数智化监管平台</title>
+    <style>
+      body {
+        user-select: none;
+        -webkit-user-select: none;
+      }
+      ::-webkit-scrollbar {
+        display: none;
+      }
+      input:-internal-autofill-previewed,
+      input:-internal-autofill-selected {
+        caret-color: white;
+        -webkit-text-fill-color: white;
+        transition: background-color 5000s ease-out 0.5s;
+      }
+    </style>
+  </head>
+  <body>
+    <div env="%VITE_NAME%" id="app"></div>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
